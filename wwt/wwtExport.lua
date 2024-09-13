@@ -69,6 +69,8 @@ do
 						-- To support the Super Bug, override module name to be FA-18C Hornet
 						if _self.Name == "FA-18E" then _self.Name = "FA-18C_hornet" end
 						if _self.Name == "FA-18F" then _self.Name = "FA-18C_hornet" end
+						-- 13th September 2024 adding Growler at user request NOTE - NOT TESTED
+						if _self.Name == "EA-18G" then _self.Name = "FA-18C_hornet" end
 
 						local _send={}
 						_send["func"]="mod"
